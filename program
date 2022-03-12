@@ -1,0 +1,8 @@
+a=0
+b=1                 #intialising the first two default values
+n=1
+while True:
+    print(a)
+    m=a+b             #while loop to add the terms and display it
+    a=b             
+    b=m
