@@ -1,0 +1,11 @@
+arr=[]
+sort=[]
+n=int(input("enter the number of elements in the array"))
+for i in range (0,n):
+    l=int(input())
+    arr.append(l)
+print(arr)
+for num in arr:
+    if num>=0:
+        sort.append(num)
+print(sort)
