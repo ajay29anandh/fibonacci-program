@@ -1,0 +1,22 @@
+a=[]
+b=[]
+n=int(input(print('enter the number of elements in each set')))
+print('enter the elements of set 1 ')
+for i in range(0,n):
+    l=int(input())
+    a.append(l)
+print('enter the elements of set 2 ')
+for i in range(0,n):
+    m=int(input())
+    b.append(m)
+print(a)
+print(b)
+print('the union of set 1 and set 2 is ')
+print(list(set(a+b)))
+inter= set(a)&set(b)   
+print('the intersection of 1 and 2 is ')
+print(set(a)&set(b))
+print('the difference of 1 and 2 is ')
+print(set(a)-set(b))
+print(' the symmetric difference of set 1 and 2 is ')
+print(set(a+b)-inter)
